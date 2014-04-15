@@ -648,7 +648,7 @@ E(g)$color <-  sample(colors()[30:300], length(E(g)$weight))
 node_size <- unlist(lapply(myNews, function(x) ncol(x$tdm)))
 V(g)$size <- scale(node_size, center=FALSE)*70
 V(g)$label <- V(g)$name
-plot.igraph(g, layout=layout1, vertex.label.family="STHeiti", vertex.label.cex=1.4, xlim=c(-0.8,1), ylim=c(-1,0.7))
+plot.igraph(g, layout=layout1, vertex.label.family="STHeiti", vertex.label.cex=1.4, xlim=c(-0.8,1), ylim=c(-1,0.8))
 ```
 
 ---
