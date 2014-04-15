@@ -1,6 +1,6 @@
 ---
 title       : Statistics with R
-subtitle    : Fantastic examples from R
+subtitle    : 台南酷學園R語言推廣講座, April 2014
 author      : Johnson Hsieh (謝宗震)
 job         : Postdoctoral Reseracher in Biostatistics at NTHU
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
